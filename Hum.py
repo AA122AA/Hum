@@ -7,7 +7,7 @@ while True:
     
     t = str(temperature)
     h = str(humidity)
-    print ("%s" % .format(time.ctime(), t, h))
+    print (time.ctime())
     print ("temperature: %s C" % t)
     print ("humidity: %s %%" % h)
     # you can write results to file
